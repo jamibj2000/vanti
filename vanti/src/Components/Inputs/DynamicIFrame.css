@@ -1,0 +1,74 @@
+.icon-web{
+    position: fixed;
+    top: 85%;
+    z-index: 9;
+}
+
+.icon-web-container{
+    width: 100%;
+    height: 100vh;
+    isolation: isolate;
+}
+
+.icon-web-center-start{
+    width: 8%;
+    z-index: -2;
+    box-sizing: content-box;
+    position: absolute;
+    left: 51%;
+    top: 51%;
+    transform: translate(-50%, -50%);
+    filter: grayscale(100%) brightness(0);
+    opacity: 0.4;
+}
+
+.icon-web-center-ending{
+    width: 8%;
+    z-index: 2;
+    box-sizing: content-box;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.icon-web-start{
+    width: 5%;
+    z-index: -2;
+    box-sizing: content-box;
+    position: absolute;
+    left: 90.5%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    filter: grayscale(100%) brightness(0);
+    opacity: 0.4;
+}
+.card-shade{
+    box-shadow: rgb(214, 214, 214) 3px 3px 10px 4px;
+}
+.icon-web-ending{
+    width: 5%;
+    z-index: -2;
+    box-sizing: content-box;
+    position: absolute;
+    left: 90%;
+    top: 50%;
+    filter: saturate(240%) ;
+    transform: translate(-50%, -50%);
+}
+
+@keyframes iconWeb{
+    100%{
+    }
+}
+
+
+
+
+
+
+
+
+/*
+    322 234 2190
+*/
